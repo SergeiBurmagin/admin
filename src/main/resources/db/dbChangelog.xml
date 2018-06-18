@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+    <include file="classpath:/db/users/users.xml"/>
+    <include file="classpath:/db/secGrant2RoleMap/secGrant2RoleMap.xml"/>
+    <include file="classpath:/db/secGrantArea/secGrantArea.xml"/>
+    <include file="classpath:/db/secGrantSpr/secGrantSpr.xml"/>
+    <include file="classpath:/db/secRole2ScopeMap/secRole2ScopeMap.xml"/>
+    <include file="classpath:/db/secRoleSpr/secRoleSpr.xml"/>
+
+
+    <include file="classpath:/db/secScopeSpr/secScopeSpr.xml"/>
+    <include file="classpath:/db/secUser2RoleMap/secUser2RoleMap.xml"/>
+    <include file="classpath:/db/secUser2ScopeMap/secUser2ScopeMap.xml"/>
+    <include file="classpath:/db/userAuth/userAuth.xml"/>
+    <include file="classpath:/db/userAuthTypeSpr/userAuthTypeSpr.xml"/>
+    <include file="classpath:/db/userDepartments/userDepartments.xml"/>
+    <include file="classpath:/db/userTypeSpr/userTypeSpr.xml"/>
+
+</databaseChangeLog>
